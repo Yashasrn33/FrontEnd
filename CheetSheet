@@ -1,15 +1,23 @@
-## Head_Section
-Meta name = keywords
-Meta name = description
+# Head_Section
+
+Meta name = keywords - to add Keywords
+Meta name = description - Description when we lookup for the website
+Style - CSS
+
+# Body_Section
+
 a - Inset link
-< a href=“#id_name”> text
-< a href=“#”>Jump to top
+< a href=“#id_name”> text - Goto ID in the page
+< a href=“#”> - Jump to top
 < a href=“https…” target=“_blank”> - Opens New Tab
-<a href="mailto:…..”>
+<a href="mailto:…..”> - goes to mail
+
 P - Paragraph
 H1 - Headding
 Img - Image
-Style in head - CSS
+
 ! + Tab - Boilerplate
 Lorem - To generate dummy text
 <__ id=“”> - unique attribute
+em 
+strong
