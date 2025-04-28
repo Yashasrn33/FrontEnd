@@ -1,0 +1,15 @@
+## Head_Section
+Meta name = keywords
+Meta name = description
+a - Inset link
+< a href=“#id_name”> text
+< a href=“#”>Jump to top
+< a href=“https…” target=“_blank”> - Opens New Tab
+<a href="mailto:…..”>
+P - Paragraph
+H1 - Headding
+Img - Image
+Style in head - CSS
+! + Tab - Boilerplate
+Lorem - To generate dummy text
+<__ id=“”> - unique attribute
