@@ -18,3 +18,11 @@ we call the class by attribute.class{} or .class{}
 we call an id by #id
 
 .class_name:#required action hover or click{} - hover, click styles etc
+
+Text:
+font-family, style - # self explanatory
+text-align - alignment
+line-height - spacing
+text-decoration - edit style of text
+
+if we assign style in basic common section, and same in class - class style will overide it
