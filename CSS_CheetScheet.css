@@ -24,5 +24,6 @@ font-family, style - # self explanatory
 text-align - alignment
 line-height - spacing
 text-decoration - edit style of text
+margin-left - to add space
 
 if we assign style in basic common section, and same in class - class style will overide it
