@@ -7,7 +7,11 @@ width
 border - radius
 cursor
 
-Margin - for space
+Insted of setting width and height, Padding - to add space inside
+Margin - add space on the outside
+
+Vertical-align - to allign the content in line
+
 transition: #what is changing and event; #can add multiple features
 
 we call the class by attribute.class{} or .class{}
