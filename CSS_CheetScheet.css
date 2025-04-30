@@ -27,3 +27,12 @@ text-decoration - edit style of text
 margin-left - to add space
 
 if we assign style in basic common section, and same in class - class style will overide it
+
+Image:
+object-fit: 
+object-position: ;
+
+<link rel="stylesheet" href=""> -link css page to HTML page
+
+CSS- Display Property - switch between block and inline block
+
