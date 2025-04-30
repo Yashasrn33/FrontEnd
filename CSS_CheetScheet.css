@@ -34,5 +34,8 @@ object-position: ;
 
 <link rel="stylesheet" href=""> -link css page to HTML page
 
+class1,class2{} - apply similar features
+
 CSS- Display Property - switch between block and inline block
+display: inline-block;
 
