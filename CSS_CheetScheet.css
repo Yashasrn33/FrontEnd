@@ -39,3 +39,14 @@ class1,class2{} - apply similar features
 CSS- Display Property - switch between block and inline block
 display: inline-block;
 
+imline css - can write css code in any sentences #hard to read
+
+CSS Grid:
+Helps us create perfectly aligned layouts
+- style in div
+- style = "dislay:grid;"
+grid-template-columns: 100px 100px; # says the no. of columns a grid has and it's width
+by using this div also won't takeup whole line - so display is not required
+maintain allignment
+have wraping property - wraps to next column - if we have more elemets
+fr - free space- takes remaining space
