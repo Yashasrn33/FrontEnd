@@ -65,3 +65,24 @@ to prevent certain items from shrinking - flex-shrink: 0
 width: 0 - to remove the default width of searchbox
 
 .class_name::Placeholder{ to design a placeholder}
+
+CSS Position:
+position: static #default
+position : fixed - header that always stays on top
+top, left, right, bottom - space between edge and elment - if we place them in opposite direction the element streach
+can also use height and width
+- add space to the top of body,padding is better
+
+border-req postion- style
+
+position: absolute; - takes same value as position fixed but it moves
+if placed inside fixed element- it'll be relative to that apart from page
+z-index: - default 0
+
+Ressponsive design - 
+@media { conditional statement}
+
+more the z index the image appears in more front
+
+position relative - it'll move with the element if placed inside a element
+can place absolute element inside it
