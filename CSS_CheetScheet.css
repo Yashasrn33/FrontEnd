@@ -86,3 +86,8 @@ more the z index the image appears in more front
 
 position relative - it'll move with the element if placed inside a element
 can place absolute element inside it
+
+padding: top, right, bottom, left;
+same for margin
+border: width, solid, color;
+inheritance proerty - passon inside grid - don't work for all property
