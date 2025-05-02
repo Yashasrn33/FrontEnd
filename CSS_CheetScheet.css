@@ -49,7 +49,19 @@ grid-template-columns: 100px 100px; # says the no. of columns a grid has and it'
 by using this div also won't takeup whole line - so display is not required
 maintain allignment
 have wraping property - wraps to next column - if we have more elemets
-fr - free space- takes remaining space
+1fr- with ratio / fr - free space- takes remaining space
 column-gap: gap bn all clmns
 
+CSS Flexbox:
+display: flex
+flex-direction:
+max-width: max wiidth of growing section
+similar to grid but more flexible, aligns with the content
+always maintains alignment
+flex:1; similar to fr takes up remaining space
+justify-content: start, center, or end - position of element, space between - equal space b/n each element and spread them
+align-items: - aligns from the top end - strech covers full, start - from top
+to prevent certain items from shrinking - flex-shrink: 0
+width: 0 - to remove the default width of searchbox
 
+.class_name::Placeholder{ to design a placeholder}
