@@ -1,0 +1,49 @@
+.vid{
+    display: inline-block;
+    width: 420px;
+    font-family: Roboto;
+}
+.thumb {
+    width: 100%;
+  }
+  .info {
+    margin-top: 10px;
+  }
+  .profilepic{
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;
+  }
+  .pic {
+    width: 70%;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  .cinf{
+    display: inline-block;
+    width: 330px;
+    margin-left: 0px;
+  }
+  .vtitle, .vviews {
+    margin-bottom: 5px;
+    margin: 0;
+    width: 100%;
+  }
+  .title {
+    margin-top: 0px;
+    font-weight: bolder;
+    text-align: justify;
+    margin-bottom: 5px;
+  }
+  .creator,.Views{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+  }
