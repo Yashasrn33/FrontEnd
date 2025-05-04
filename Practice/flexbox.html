@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-Box</title>
+    <style>
+      .header {
+        display: flex;
+        flex-direction: row;
+        height: 45px;
+        border-color: gray;
+        border-style: solid;
+        align-items: center;
+      }
+      .searchbar {
+        margin-left: 20px;
+        display: flex;
+
+        flex: 1;
+        justify-content: center;
+
+        background-color: antiquewhite;
+      }
+      .left {
+        display: flex;
+        background-color: aquamarine;
+        align-items: center;
+      }
+      .right {
+        background-color: rgb(137, 137, 235);
+        width: 250px;
+        align-items: center;
+        justify-content: right;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left">IMG1 IMG2</div>
+      <div class="searchbar">
+        <input
+          style="border-radius: 50px; height: 30px; width: 50%"
+          type="text"
+          placeholder="Search"
+        />
+      </div>
+      <div class="right">left</div>
+    </div>
+  </body>
+</html>

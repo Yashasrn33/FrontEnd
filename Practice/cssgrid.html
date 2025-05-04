@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grids</title>
+    <style>
+      .temp {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+      }
+      .video {
+        display: grid;
+        grid-template-rows: 3fr 1fr;
+        row-gap: 8px;
+      }
+      .timage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .creatorimg {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+      }
+      .info {
+        display: grid;
+        grid-template-columns: 1fr 7fr;
+        column-gap: 10px;
+      }
+      .title,
+      .creator {
+        margin: 0px;
+      }
+      .na,
+      .vi,
+      .ti {
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="temp">
+      <div class="video">
+        <div class="thumbnil">
+          <img
+            class="timage"
+            src="/Youtube/Images/react.png"
+            alt="This is react Tutorial"
+          />
+        </div>
+        <div class="info">
+          <div class="ppic">
+            <img
+              class="creatorimg"
+              src="/Youtube/Images/r 1.png"
+              alt="Creator image"
+            />
+          </div>
+          <div class="vinfo">
+            <div class="vtitle">
+              <p class="ti">
+                This is intro to React course that u'll learn now
+              </p>
+            </div>
+            <div class="creator">
+              <p class="na">Yashas R</p>
+              <p class="vi">2.6 M Views 6 Months Ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="thumbnil">
+          <img
+            class="timage"
+            src="/Youtube/Images/react.png"
+            alt="This is react Tutorial"
+          />
+        </div>
+        <div class="info">
+          <div class="ppic">
+            <img
+              class="creatorimg"
+              src="/Youtube/Images/r 1.png"
+              alt="Creator image"
+            />
+          </div>
+          <div class="vinfo">
+            <div class="vtitle">
+              <p class="ti">
+                This is intro to React course that u'll learn now
+              </p>
+            </div>
+            <div class="creator">
+              <p class="na">Yashas R</p>
+              <p class="vi">2.6 M Views 6 Months Ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="thumbnil">
+          <img
+            class="timage"
+            src="/Youtube/Images/react.png"
+            alt="This is react Tutorial"
+          />
+        </div>
+        <div class="info">
+          <div class="ppic">
+            <img
+              class="creatorimg"
+              src="/Youtube/Images/r 1.png"
+              alt="Creator image"
+            />
+          </div>
+          <div class="vinfo">
+            <div class="vtitle">
+              <p class="ti">
+                This is intro to React course that u'll learn now
+              </p>
+            </div>
+            <div class="creator">
+              <p class="na">Yashas R</p>
+              <p class="vi">2.6 M Views 6 Months Ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
